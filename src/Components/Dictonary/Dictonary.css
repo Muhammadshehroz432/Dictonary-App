@@ -1,0 +1,32 @@
+.dictonary {
+  border-radius: 10px;
+}
+.searchbar {
+  display: flex;
+  gap: 5px;
+}
+.seacrh-icon {
+  border-radius: 50px;
+}
+
+.searchbar input {
+  border: none;
+  border-bottom: 2px solid black;
+}
+.searchbar input:focus {
+  border: bottom 2px solid black;
+  outline: none;
+}
+
+.class-phonetic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  gap: 4rem;
+}
+
+.defination {
+  text-align: center;
+}
