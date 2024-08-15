@@ -8,7 +8,7 @@ const Dictonary = () => {
     const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
     const response = await fetch(url);
     const data = await response.json();
-    console.log(data[0]);
+
     setDictonarydata({
       word: data[0].word,
       phonetics: data[0].phonetics[0].text,
